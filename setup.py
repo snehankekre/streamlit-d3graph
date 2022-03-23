@@ -16,7 +16,6 @@ setuptools.setup(
     install_requires=["d3graph>=2.0.1", "streamlit"],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
