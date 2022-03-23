@@ -1,6 +1,8 @@
 # streamlit-d3graph
 
-**A simple component to display [d3graph](https://github.com/erdogant/d3graph) network graphs in Streamlit apps.** This component is powered by [d3graph](https://github.com/erdogant/d3graph), a Python package that simplifies the task of creating interactive and stand-alone networks in d3 JavaScript using Python. 
+**A simple component to display [d3graph](https://github.com/erdogant/d3graph) network graphs in Streamlit apps.** 
+
+This component is powered by [d3graph](https://github.com/erdogant/d3graph), a Python package that simplifies the task of creating interactive and stand-alone networks in d3 JavaScript using Python. 
 
 ## Installation
 
@@ -29,4 +31,3 @@ d3.show()
 d3.set_node_properties(label=label, color=label, cmap='Set1')
 d3.show()
 ```
-
