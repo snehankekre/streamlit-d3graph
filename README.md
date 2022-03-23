@@ -2,7 +2,15 @@
 
 **A simple component to display [d3graph](https://github.com/erdogant/d3graph) network graphs in Streamlit apps.** 
 
-This component is powered by [d3graph](https://github.com/erdogant/d3graph), a Python package that simplifies the task of creating interactive and stand-alone networks in d3 JavaScript using Python. 
+This component is powered by [d3graph](https://github.com/erdogant/d3graph), a Python package that simplifies the task of creating interactive and stand-alone networks in d3 JavaScript using Python.
+
+---
+
+<h3 align="center">
+  🕸️ <a href="https://share.streamlit.io/snehankekre/streamlit-d3graph/main/examples/example.py">Live demo</a> 🕸️
+</h3>
+
+---
 
 ## Installation
 
