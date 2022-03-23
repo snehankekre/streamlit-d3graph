@@ -1,0 +1,2 @@
+streamlit
+streamilt-d3graph>=1.0.0
