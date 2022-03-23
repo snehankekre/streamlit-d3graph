@@ -1,2 +1,2 @@
 streamlit
-streamlit-d3graph==1.0.1
+streamlit-d3graph==1.0.2
