@@ -12,6 +12,10 @@ This component is powered by [d3graph](https://github.com/erdogant/d3graph), a P
 
 ---
 
+<p align="center">
+    <a href="https://share.streamlit.io/snehankekre/streamlit-d3graph/main/examples/example.py"><img src="images/demo.png" width=600></a>
+</p>
+
 ## Installation
 
 ```bash
