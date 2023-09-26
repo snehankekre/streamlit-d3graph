@@ -1,2 +1,4 @@
 streamlit
-streamlit-d3graph==1.0.2
+streamlit-d3graph==1.0.3
+scipy
+scikit-learn
