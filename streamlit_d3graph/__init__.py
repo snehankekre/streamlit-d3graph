@@ -1,11 +1,11 @@
 import streamlit.components.v1 as components
 from d3graph import d3graph as OrigD3graph
-
-from d3graph.d3graph import *
+from d3graph.d3graph import *  # noqa: F403
 
 ## Below class extends
 ## https://github.com/erdogant/d3graph/blob/master/d3graph/d3graph.py
 ## to display d3graph in Streamlit apps
+
 
 class d3graph(OrigD3graph):
     def show(self, figsize=(800, 800), title="d3graph", *args, **kwargs):
