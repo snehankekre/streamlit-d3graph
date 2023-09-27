@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_d3graph import d3graph
 
 
-@st.experimental_memo
+@st.cache_data
 def init_graph():
     # Initialize
     d3 = d3graph()
@@ -15,33 +15,33 @@ def init_graph():
     return d3, adjmat, df, label, node_size
 
 
-@st.experimental_memo
+@st.cache_data
 def graph_one(_d3, adjmat, df, label, node_size):
     d3.graph(adjmat)
     d3.set_node_properties(color=df["label"].values)
     return d3
 
 
-@st.experimental_memo
+@st.cache_data
 def graph_two(_d3, adjmat, df, label, node_size):
     d3.set_node_properties(label=label, color=label, cmap="Set1")
     return d3
 
 
-@st.experimental_memo
+@st.cache_data
 def graph_three(_d3, adjmat, df, label, node_size):
     d3.set_node_properties(color=label, size=node_size)
     return d3
 
 
-@st.experimental_memo
+@st.cache_data
 def graph_four(_d3, adjmat, df, label, node_size):
     d3.set_edge_properties(edge_distance=100)
     d3.set_node_properties(color=node_size, size=node_size)
     return d3
 
 
-@st.experimental_memo
+@st.cache_data
 def graph_five(adjmat, df, label, node_size):
     d3 = d3graph(charge=1000)
     d3.graph(adjmat)
@@ -49,7 +49,7 @@ def graph_five(adjmat, df, label, node_size):
     return d3
 
 
-@st.experimental_memo
+@st.cache_data
 def graph_six(adjmat, df, label, node_size):
     d3 = d3graph(collision=1, charge=250)
     d3.graph(adjmat)
@@ -59,7 +59,7 @@ def graph_six(adjmat, df, label, node_size):
     return d3
 
 
-@st.experimental_memo
+@st.cache_data
 def graph_seven(adjmat, df, label, node_size):
     d3 = d3graph(collision=1, charge=250)
     d3.graph(adjmat)
